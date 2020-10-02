@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/katrin-hauf-purple-smoke.jpg) no-repeat center center fixed;
     background-size: cover;
    /* set height to 100% - these are important for allowing content to vertically align */
    height: 100%;
@@ -111,7 +111,7 @@ body {
 .wrapper {
     /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
     height: 100%;
@@ -121,23 +121,33 @@ body {
 #content {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    background: #222;
-    background:rgba(0,0,0,0.7);
+    background:#cc2efa;
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
-    width: 300px;
-    height: 300px;
+    width: 390px;
+    height: 390px;
 }
 
 #content p span {
     font-family: 'Lora', sans-serif;
+    font-size: 1.6em;
+}
+
+.design-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #390249;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
 }
 
 
